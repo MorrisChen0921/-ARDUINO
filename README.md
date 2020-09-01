@@ -10,3 +10,4 @@ pinMode(腳位，INPUT/OUTPUT);
 -----------------------------------------------------------------
 第一個程式 功能 LED 閃爍 亮 0.5S 暗 0.5S
 電路圖如下:
+![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-01-141715.jpg)
