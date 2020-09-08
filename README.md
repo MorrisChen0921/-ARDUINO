@@ -12,7 +12,7 @@ pinMode(腳位，INPUT/OUTPUT);</p>
 電路圖如下:</p>
 ![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-01-141715.jpg)</p>
 
-```Arduino
+```c++
 void setup() {
   // put your setup code here, to run once:
 for(int i=2;i<6;i++)
