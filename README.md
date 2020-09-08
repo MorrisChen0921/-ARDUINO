@@ -15,17 +15,16 @@ pinMode(腳位，INPUT/OUTPUT);</p>
 ```c++
 void setup() {
   // put your setup code here, to run once:
-for(int i=2;i<6;i++)
-   pinMode(i,OUTPUT);
+
+   pinMode(2,OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-for(int i=2;i<6;i++) 
- digitalWrite(i,HIGH);//滅
+
+ digitalWrite(2,HIGH);//滅
  delay(100);
- for(int i=2;i<6;i++)
-   digitalWrite(i,LOW);//亮
+digitalWrite(2,LOW);//亮
  delay(100);
 ｝
 ```
