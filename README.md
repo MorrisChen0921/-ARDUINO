@@ -10,7 +10,7 @@ pinMode(腳位，INPUT/OUTPUT);
 腳位設定成INPUT 腳位初始狀態為1</br>
 腳位設定為OUTPUY 腳位初始狀態為0</br>
 -----------------------------------------------------------------</br>
-第一個程式 功能 LED 閃爍 亮 0.5S 暗 0.5S</br>
+第一個程式 功能 LED 閃爍 亮 0.1S 暗 0.1S</br>
 電路圖如下:</br>
 ![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-01-141715.jpg)</br>
 
