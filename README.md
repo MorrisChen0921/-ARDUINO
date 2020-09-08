@@ -11,8 +11,8 @@ pinMode(腳位，INPUT/OUTPUT);</p>
 第一個程式 功能 LED 閃爍 亮 0.5S 暗 0.5S</p>
 電路圖如下:</p>
 ![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-01-141715.jpg)</p>
-![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/sketch_sep08a.ino)
-'''Arduino
+
+```Arduino
 void setup() {
   // put your setup code here, to run once:
 for(int i=2;i<6;i++)
@@ -28,4 +28,4 @@ for(int i=2;i<6;i++)
    digitalWrite(i,LOW);//亮
  delay(100);
 ｝
-'''
+```
