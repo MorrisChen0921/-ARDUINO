@@ -1,6 +1,6 @@
 # -ARDUINO
 學習ARDUINO的過程</p>
-void setup(){}<h1><--只執行一次，Arduino的初使設定</h1></p>
+void setup(){}<FONT color=#FF0000><--只執行一次，Arduino的初使設定</FONT></p>
 void loop(){}<--會重覆執行，主程式的位置
 第一個指令
 pinMode(腳位，INPUT/OUTPUT);
