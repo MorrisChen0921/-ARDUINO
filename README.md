@@ -30,3 +30,25 @@ digitalWrite(2,LOW);//亮
  delay(100);
 ｝
 ```
+第三個程式 功能 LED 由左至右逐一亮滅
+
+```c++
+int LED=5;
+void setup() {
+  for (int i=2 ;i<6;i++)
+   pinMode(i,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for(int i=5; i>1; i--)
+    digitalWrite(i,HIGH);
+ if (LED>=2)
+      digitalWrite(LED,LOW);
+   else
+      LED=6;   
+  LED--;      
+
+ delay(500);
+}
+```
