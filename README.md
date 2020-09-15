@@ -88,3 +88,8 @@ STEP9    回到初始狀態</br>
 
 ![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-15-132935.jpg)</br>
 
+類比輸出的方式為 analogWrite(腳位,值)</br>
+腳位必需是要有在Arduino UNO 板上有"~"符號</br>
+值可填入 0-255</br>
+請實作出呼吸燈的程式
+呼吸燈的功能從暗到亮再到暗的循環 每隔100mS變換亮度
