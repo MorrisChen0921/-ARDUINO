@@ -85,4 +85,5 @@ STEP9    回到初始狀態</br>
 
 <h1>類比輸出的應用</h1>
 如圖 在腳位有出現~符號，代表可以做類比輸出</br>
+![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-15-132935.jpg)</br>
 
