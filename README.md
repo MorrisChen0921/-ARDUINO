@@ -37,7 +37,7 @@ STEP2    ○●○○
 STEP3    ○○●○
 STEP4    ○○○●
 電路配置圖如下：
-
+![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-15-102014.jpg）
 
 ```c++
 int LED=5;
