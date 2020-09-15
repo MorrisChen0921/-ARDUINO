@@ -38,7 +38,7 @@ STEP3    ○○●○</br>
 STEP4    ○○○●</br>
 電路配置圖如下：</br>
 ![image](https://github.com/MorrisChen0921/-ARDUINO/blob/master/2020-09-15-102014.jpg)</br>
-
+程式碼如下:
 ```c++
 int LED=5;
 void setup() {
@@ -59,3 +59,15 @@ void loop() {
  delay(500);
 }
 ```
+第四個程式 功能 LED 由左至右逐一亮滅，功能如下</br>
+初始狀態  ○○○○○○○○</br>
+STEP1    ●○○○○○○○</br>
+STEP2    ○●○○○○○○</br>
+STEP3    ○○●○○○○○</br>
+STEP4    ○○○●○○○○</br>
+STEP5    ○○○○●○○○</br>
+STEP6    ○○○○○●○○</br>
+STEP7    ○○○○○○●○</br>
+STEP8    ○○○○○○○●</br>
+STEP9    回到初始狀態
+
